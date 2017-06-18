@@ -1,0 +1,9 @@
+package: .
+import:
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
+- package: github.com/dgrijalva/jwt-go
+  version: ^3.0.0
+- package: github.com/labstack/echo
+  version: ~3.1.0
